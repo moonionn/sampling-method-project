@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/firstpartModelSelect/modelselect_wine.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/ROS-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/ROS-train.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/RUS-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/RUS-train.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/adasyn-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/adasyn-train.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/training/origin-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/origin-train.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/smote-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/smote-train.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +33,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/moonion/Documents/彰師大/02 私自學習/Machine Learning/Side Project/sampling-method-project/dataset",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/moonion/Documents/彰師大/02 私自學習/Machine Learning/Side Project/sampling-method-project/dataset&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataset" />
@@ -84,11 +78,27 @@
       <workItem from="1713836576575" duration="1501000" />
       <workItem from="1714314429993" duration="10066000" />
       <workItem from="1714327728300" duration="2000" />
-      <workItem from="1714327746532" duration="15584000" />
+      <workItem from="1714327746532" duration="15619000" />
+      <workItem from="1714441394867" duration="745000" />
+      <workItem from="1714448759734" duration="93000" />
+      <workItem from="1714448946608" duration="3670000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <option name="closed" value="true" />
+      <created>1714418452632</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714418452632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
