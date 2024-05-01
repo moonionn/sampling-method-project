@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/firstpartModelSelect/modelselect_wine.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/origin-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/origin-train.ipynb" afterDir="false" />
+    <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment="修正">
+      <change beforePath="$PROJECT_DIR$/firstpartModelSelect/modelselect_wine.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/firstpartModelSelect/modelselect_wine.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +79,7 @@
       <workItem from="1714327746532" duration="15619000" />
       <workItem from="1714441394867" duration="745000" />
       <workItem from="1714448759734" duration="93000" />
-      <workItem from="1714448946608" duration="3670000" />
+      <workItem from="1714448946608" duration="16946000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -91,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714418452632</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="建立第一部分">
+      <option name="closed" value="true" />
+      <created>1714458575413</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714458575413</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修正">
+      <option name="closed" value="true" />
+      <created>1714458581454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714458581454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +113,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="建立第一部分" />
+    <MESSAGE value="修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="修正" />
   </component>
 </project>
