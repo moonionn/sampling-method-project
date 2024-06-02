@@ -4,8 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment="修正">
+    <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment="output_pic of Firstpart of Diabetes">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easycode/codebase-v2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_way/Kfold_CrossValidation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_way/Models_training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_way/Samplings_Collection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_way/alltheResult.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_way/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new_way/prepreprocessing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/training/training_output.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstpartModelSelect/modelselect_wine.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/firstpartModelSelect/modelselect_wine.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocessing.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/ROS-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/ROS-train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/RUS-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/RUS-train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/adasyn-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/adasyn-train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/origin-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/origin-train.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/training/smote-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/smote-train.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -31,25 +50,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/moonion/Documents/彰師大/02 私自學習/Machine Learning/Side Project/sampling-method-project/dataset&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Kfold_CrossValidation.executor": "Run",
+    "Python.Models_training.executor": "Run",
+    "Python.Samplings_Collection.executor": "Run",
+    "Python.alltheResult.executor": "Run",
+    "Python.demo.executor": "Run",
+    "Python.evaluate.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.prepreprocessing.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/moonion/Documents/彰師大/02 私自學習/Machine Learning/Side Project/sampling-method-project/dataset",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.obiscr.chatgpt.settings.GPT3-3.5-Turbo",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/dataset" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/new_way" />
       <recent name="$PROJECT_DIR$/training" />
       <recent name="$PROJECT_DIR$/preprocessing" />
       <recent name="$PROJECT_DIR$/dataset" />
@@ -79,7 +109,13 @@
       <workItem from="1714327746532" duration="15619000" />
       <workItem from="1714441394867" duration="745000" />
       <workItem from="1714448759734" duration="93000" />
-      <workItem from="1714448946608" duration="16946000" />
+      <workItem from="1714448946608" duration="25613000" />
+      <workItem from="1714852345244" duration="12964000" />
+      <workItem from="1716255571825" duration="635000" />
+      <workItem from="1717052116536" duration="1874000" />
+      <workItem from="1717135036244" duration="607000" />
+      <workItem from="1717263067035" duration="3778000" />
+      <workItem from="1717314257937" duration="13363000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -105,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714458581454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modelselect_wine.ipynb ok">
+      <option name="closed" value="true" />
+      <created>1714594954066</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714594954066</updated>
+    </task>
+    <task id="LOCAL-00005" summary="output_pic of Firstpart of Diabetes">
+      <option name="closed" value="true" />
+      <created>1714595001034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714595001034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +167,18 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="建立第一部分" />
     <MESSAGE value="修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="修正" />
+    <MESSAGE value="modelselect_wine.ipynb ok" />
+    <MESSAGE value="output_pic of Firstpart of Diabetes" />
+    <option name="LAST_COMMIT_MESSAGE" value="output_pic of Firstpart of Diabetes" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sampling_method_project$prepreprocessing.coverage" NAME="prepreprocessing Coverage Results" MODIFIED="1717349798233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
+    <SUITE FILE_PATH="coverage/sampling_method_project$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1717358361102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
+    <SUITE FILE_PATH="coverage/sampling_method_project$Kfold_CrossValidation.coverage" NAME="Kfold_CrossValidation Coverage Results" MODIFIED="1717350078028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
+    <SUITE FILE_PATH="coverage/sampling_method_project$alltheResult.coverage" NAME="alltheResult Coverage Results" MODIFIED="1717359115110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
+    <SUITE FILE_PATH="coverage/sampling_method_project$demo.coverage" NAME="demo Coverage Results" MODIFIED="1717052132559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sampling_method_project$Models_training.coverage" NAME="Models_training Coverage Results" MODIFIED="1717358336635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
+    <SUITE FILE_PATH="coverage/sampling_method_project$main.coverage" NAME="main Coverage Results" MODIFIED="1717358756862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
+    <SUITE FILE_PATH="coverage/sampling_method_project$Samplings_Collection.coverage" NAME="Samplings_Collection Coverage Results" MODIFIED="1717349952866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
   </component>
 </project>
