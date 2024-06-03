@@ -1,35 +1,8 @@
-# import pandas as pd
-# from prepreprocessing import load_and_scale_data
-from Kfold_CrossValidation import kfold_crossValidation
-from Models_training import logistic_regression_model, random_forrest_model, svm_model, knn_model, naive_bayes_model
-from Samplings_Collection import oversample_balance, undersample_balance, smote_balance, adasyn_balance, gamma_balance
-
-# wine_df = pd.read_csv('../newdataset/new_winequality.csv')
-# diabetes_df = pd.read_csv('../newdataset/new_diabetes.csv')
-#
-# wine_X, wine_y = load_and_scale_data(wine_df, 'quality')
-# diabetes_X, diabetes_y = load_and_scale_data(diabetes_df, 'diabetes')
-# print(wine_X, wine_y)
-# print('=========================')
-# print(diabetes_X, diabetes_y)
-
-# lr_smote_f1, lr_smote_auc =kfold_crossValidation(wine_X, wine_y, logistic_regression_model, k=5, balance_function=smote_balance)
-# print('Mean F1-score: ', lr_smote_f1)
-# print('Mean AUC: ', lr_smote_auc)
-#
-# lr_adasyn_f1, lr_adasyn_auc =kfold_crossValidation(wine_X, wine_y, logistic_regression_model, k=5, balance_function=adasyn_balance)
-# print('Mean F1-score: ', lr_adasyn_f1)
-# print('Mean AUC: ', lr_adasyn_auc)
-
-# lr_smote_f1, lr_smote_auc = kfold_crossValidation(diabetes_X, diabetes_y, logistic_regression_model, k=5, balance_function=smote_balance)
-# print('Mean F1-score: ', lr_smote_f1)
-# print('Mean AUC: ', lr_smote_auc)
-
 import pandas as pd
 from prepreprocessing import load_and_scale_data
 from Kfold_CrossValidation import kfold_crossValidation
 from Models_training import logistic_regression_model, random_forrest_model, svm_model, knn_model, naive_bayes_model
-from Samplings_Collection import oversample_balance, undersample_balance, smote_balance, adasyn_balance, gamma_balance
+from Samplings_Collection import no_sampling, oversample_balance, undersample_balance, smote_balance, adasyn_balance, gamma_balance
 
 # --- 參數配置 ---
 K_FOLD = 5
@@ -43,6 +16,7 @@ datasets = {
 
 # --- 採樣方法和模型 ---
 sampling_methods = {
+    'No Sampling': no_sampling,
     'SMOTE': smote_balance,
     'ADASYN': adasyn_balance,
     'Undersampling': undersample_balance,
@@ -72,12 +46,11 @@ for dataset_name, (file_path, target_column) in datasets.items():
         X_resampled, y_resampled = sampling_func(X, y)
 
         for model_name, model_func in models.items():
-            print(f"    * Model: {model_name} (started)") # 添加打印语句，表示模型训练开始
-            f1, auc = kfold_crossValidation(X_resampled, y_resampled, model_func, k=K_FOLD)
-            print(f"    * Model: {model_name} (finished)")  # 添加打印语句，表示模型训练结束
-            results[(dataset_name, model_name, sampling_name)] = (f1, auc)
+            print(f"    * Model: {model_name} ") # 添加打印语句，表示模型训练开始
+            f1, auc, mean_minority_recall = kfold_crossValidation(X_resampled, y_resampled, model_func, k=K_FOLD)
+            results[(dataset_name, model_name, sampling_name)] = (f1, auc, mean_minority_recall) # 将 mean_accuracy 也存储到 results 中
 
 # --- 結果 ---
 print("\n--- Results ---")
-for (dataset, model, sampling), (f1, auc) in results.items():
-    print(f"{dataset} - {model} ({sampling}): F1 = {f1:.4f}, AUC = {auc:.4f}")
+for (dataset, model, sampling), (f1, auc, mean_minority_recall) in results.items():
+    print(f"{dataset} - {model} ({sampling}): F1 = {f1:.4f}, AUC = {auc:.4f}, Mean Minority Recall = {mean_minority_recall:.4f}")

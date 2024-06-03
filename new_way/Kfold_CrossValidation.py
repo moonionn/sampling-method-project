@@ -1,5 +1,6 @@
 from sklearn.model_selection import KFold
-from sklearn.metrics import f1_score, roc_auc_score
+from sklearn.metrics import f1_score, roc_auc_score, accuracy_score
+from Models_training import minority_class_accuracy
 
 
 def kfold_crossValidation(data, labels, model_func, k=5, balance_function=None, **kwargs):
@@ -21,6 +22,8 @@ def kfold_crossValidation(data, labels, model_func, k=5, balance_function=None, 
     kf = KFold(n_splits=k, shuffle=True, random_state=42)
     f1_scores = []
     aucs = []
+    minority_accuracies = []  # 保存每次迭代的少數類別準確率
+    accuracies = []  # 用於存儲每次迭代的準確率
 
     for train_index, test_index in kf.split(data):
         X_train, X_test = data[train_index], data[test_index]
@@ -32,13 +35,17 @@ def kfold_crossValidation(data, labels, model_func, k=5, balance_function=None, 
         model = model_func(X_train, y_train, **kwargs)
         y_pred = model.predict(X_test)
         y_pred_proba = model.predict_proba(X_test)[:, 1]  # 计算 AUC 时需要预测概率
-
         f1 = f1_score(y_test, y_pred)
         auc = roc_auc_score(y_test, y_pred_proba)
 
         f1_scores.append(f1)
         aucs.append(auc)
 
+        minority_acc = minority_class_accuracy(y_test, y_pred)
+        minority_accuracies.append(minority_acc)
+
     mean_f1_score = sum(f1_scores) / len(f1_scores)
     mean_auc = sum(aucs) / len(aucs)
-    return mean_f1_score, mean_auc
+    mean_minority_accuracy = sum(minority_accuracies) / len(minority_accuracies)
+
+    return mean_f1_score, mean_auc, mean_minority_accuracy

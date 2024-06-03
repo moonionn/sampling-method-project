@@ -8,8 +8,6 @@ def load_and_scale_data(df, target_column):
 
     scaler = MinMaxScaler()
     X_scaled = scaler.fit_transform(X)
-    # X_scaled = pd.DataFrame(X_scaled, columns=X.columns, index=X.index)
-
     return X_scaled, y
 
 # print(load_and_scale_data(wine_df, 'quality'))

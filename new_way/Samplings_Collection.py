@@ -1,4 +1,6 @@
 # SMOTE
+def no_sampling(X, y):
+    return X, y;
 def smote_balance(X, y):
     from imblearn.over_sampling import SMOTE
     smote = SMOTE(random_state=42)
