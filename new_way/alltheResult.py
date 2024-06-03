@@ -1,44 +1,61 @@
 import pandas as pd
 
-results_data = {
-    ('wine', 'Logistic Regression', 'SMOTE'): (0.7470, 0.8306),
-    ('wine', 'Random Forest', 'SMOTE'): (0.9794, 0.9979),
-    ('wine', 'SVM', 'SMOTE'): (0.7581, 0.8352),
-    ('wine', 'KNN', 'SMOTE'): (0.9175, 0.9780),
-    ('wine', 'Naive Bayes', 'SMOTE'): (0.6981, 0.7850),
-    ('wine', 'Logistic Regression', 'ADASYN'): (0.7387, 0.8222),
-    ('wine', 'Random Forest', 'ADASYN'): (0.9811, 0.9981),
-    ('wine', 'SVM', 'ADASYN'): (0.7461, 0.8302),
-    ('wine', 'KNN', 'ADASYN'): (0.9149, 0.9769),
-    ('wine', 'Naive Bayes', 'ADASYN'): (0.6838, 0.7666),
-    ('wine', 'Logistic Regression', 'RUS'): (0.6769, 0.7077),
-    ('wine', 'Random Forest', 'RUS'): (0.7242, 0.7745),
-    ('wine', 'SVM', 'RUS'): (0.6386, 0.6958),
-    ('wine', 'KNN', 'RUS'): (0.6871, 0.6754),
-    ('wine', 'Naive Bayes', 'RUS'): (0.6261, 0.7183),
-    ('wine', 'Logistic Regression', 'ROS'): (0.7323, 0.8158),
-    ('wine', 'Random Forest', 'ROS'): (0.9961, 1.0000),
-    ('wine', 'SVM', 'ROS'): (0.7511, 0.8162),
-    ('wine', 'KNN', 'ROS'): (0.9587, 0.9847),
-    ('wine', 'Naive Bayes', 'ROS'): (0.6884, 0.7555),
-    ('wine', 'Logistic Regression', 'Gamma'): (0.7279, 0.8163),
-    ('wine', 'Random Forest', 'Gamma'): (0.9968, 1.0000),
-    ('wine', 'SVM', 'Gamma'): (0.7396, 0.8148),
-    ('wine', 'KNN', 'Gamma'): (0.9587, 0.9847),
-    ('wine', 'Naive Bayes', 'Gamma'): (0.6865, 0.7577)
+# Logistic Regression Table
+lr_data = {
+    'Sampling Method': ['None', 'SMOTE', 'ADASYN', 'Undersampling', 'Oversampling', 'Gamma'],
+    'F1-Score': [0.9802, 0.7710, 0.7650, 0.6446, 0.7323, 0.7344],
+    'AUC': [0.7427, 0.8478, 0.8445, 0.6917, 0.8158, 0.8165],
+    'Minority Recall': [0.0143, 0.7946, 0.7661, 0.7000, 0.7248, 0.7355]
 }
 
-# 创建 DataFrame
-results_df = pd.DataFrame.from_dict(results_data, orient='index', columns=['F1 Score', 'AUC'])
+lr_df = pd.DataFrame(lr_data)
+print("\n--- Logistic Regression ---\n")
+print(lr_df.to_markdown(index=False, numalign="left", stralign="left"))
 
-# 添加数据集、模型和采样方法列
-results_df[['Dataset', 'Model', 'Sampling Method']] = pd.DataFrame(results_df.index.tolist(), index=results_df.index)
+# Random Forest Table
+rf_data = {
+    'Sampling Method': ['None', 'SMOTE', 'ADASYN', 'Undersampling', 'Oversampling', 'Gamma'],
+    'F1-Score': [0.9805, 0.9679, 0.9703, 0.7141, 0.9961, 0.9961],
+    'AUC': [0.8230, 0.9959, 0.9958, 0.7707, 1.0000, 1.0000],
+    'Minority Recall': [0.0468, 0.9760, 0.9747, 0.7530, 0.9980, 0.9980]
+}
 
-# 调整列顺序
-results_df = results_df[['Dataset', 'Model', 'Sampling Method', 'F1 Score', 'AUC']]
+rf_df = pd.DataFrame(rf_data)
+print("\n--- Random Forest ---\n")
+print(rf_df.to_markdown(index=False, numalign="left", stralign="left"))
 
-# 打印表格
-print(results_df)
+# SVM Table
+svm_data = {
+    'Sampling Method': ['None', 'SMOTE', 'ADASYN', 'Undersampling', 'Oversampling', 'Gamma'],
+    'F1-Score': [0.9799, 0.7727, 0.7656, 0.6339, 0.7507, 0.7403],
+    'AUC': [0.6837, 0.8508, 0.8491, 0.6890, 0.8164, 0.8153],
+    'Minority Recall': [0.0000, 0.7972, 0.7754, 0.6818, 0.7541, 0.7653]
+}
 
+svm_df = pd.DataFrame(svm_data)
+print("\n--- SVM ---\n")
+print(svm_df.to_markdown(index=False, numalign="left", stralign="left"))
 
-results_df.to_csv('results.csv', index=False)  # 保存为 CSV
+# KNN Table
+knn_data = {
+    'Sampling Method': ['None', 'SMOTE', 'ADASYN', 'Undersampling', 'Oversampling', 'Gamma'],
+    'F1-Score': [0.9799, 0.9106, 0.9083, 0.6819, 0.9584, 0.9584],
+    'AUC': [0.6138, 0.9722, 0.9710, 0.6704, 0.9851, 0.9851],
+    'Minority Recall': [0.0468, 0.9412, 0.9387, 0.7197, 0.9719, 0.9719]
+}
+
+knn_df = pd.DataFrame(knn_data)
+print("\n--- KNN ---\n")
+print(knn_df.to_markdown(index=False, numalign="left", stralign="left"))
+
+# Naive Bayes Table
+nb_data = {
+    'Sampling Method': ['None', 'SMOTE', 'ADASYN', 'Undersampling', 'Oversampling', 'Gamma'],
+    'F1-Score': [0.9799, 0.7046, 0.7035, 0.6493, 0.6884, 0.6805],
+    'AUC': [0.7340, 0.7902, 0.7759, 0.7173, 0.7555, 0.7554],
+    'Minority Recall': [0.0000, 0.7554, 0.7321, 0.7364, 0.7129, 0.7142]
+}
+
+nb_df = pd.DataFrame(nb_data)
+print("\n--- Naive Bayes ---\n")
+print(nb_df.to_markdown(index=False, numalign="left", stralign="left"))

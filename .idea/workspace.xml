@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment="new_way create">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstpartModelSelect/modelselect_wine.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/firstpartModelSelect/modelselect_wine.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_way/Kfold_CrossValidation.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_way/Kfold_CrossValidation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_way/Models_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_way/Models_training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_way/Samplings_Collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_way/Samplings_Collection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_way/alltheResult.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_way/alltheResult.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_way/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_way/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_way/prepreprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_way/prepreprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/smote-train.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/smote-train.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +104,7 @@
       <workItem from="1717263067035" duration="3778000" />
       <workItem from="1717314257937" duration="24856000" />
       <workItem from="1717439042564" duration="218000" />
+      <workItem from="1717439267798" duration="6494000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -157,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717359759763</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new_way create">
+      <option name="closed" value="true" />
+      <created>1717439435699</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717439435699</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,10 +182,10 @@
     <SUITE FILE_PATH="coverage/sampling_method_project$Doctests_in_base.coverage" NAME="Doctests in base Coverage Results" MODIFIED="1717439150587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv/lib/python3.10/site-packages/pandas/core/indexes" />
     <SUITE FILE_PATH="coverage/sampling_method_project$evaluate.coverage" NAME="evaluate Coverage Results" MODIFIED="1717358361102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
     <SUITE FILE_PATH="coverage/sampling_method_project$Kfold_CrossValidation.coverage" NAME="Kfold_CrossValidation Coverage Results" MODIFIED="1717438277879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
-    <SUITE FILE_PATH="coverage/sampling_method_project$alltheResult.coverage" NAME="alltheResult Coverage Results" MODIFIED="1717359115110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
+    <SUITE FILE_PATH="coverage/sampling_method_project$alltheResult.coverage" NAME="alltheResult Coverage Results" MODIFIED="1717443033985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
     <SUITE FILE_PATH="coverage/sampling_method_project$demo.coverage" NAME="demo Coverage Results" MODIFIED="1717052132559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/sampling_method_project$Models_training.coverage" NAME="Models_training Coverage Results" MODIFIED="1717358336635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
-    <SUITE FILE_PATH="coverage/sampling_method_project$main.coverage" NAME="main Coverage Results" MODIFIED="1717439214782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
+    <SUITE FILE_PATH="coverage/sampling_method_project$main.coverage" NAME="main Coverage Results" MODIFIED="1717440528241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
     <SUITE FILE_PATH="coverage/sampling_method_project$Samplings_Collection.coverage" NAME="Samplings_Collection Coverage Results" MODIFIED="1717349952866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
   </component>
 </project>
