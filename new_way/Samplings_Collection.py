@@ -32,7 +32,7 @@ import numpy as np
 from sklearn.utils import resample
 
 
-def gamma_balance(X, y, shape=2.0, scale=1.0, random_state=None):
+def gamma_balance(X, y, shape=5.0, scale=0.125, random_state=None):
     if random_state is not None:
         np.random.seed(random_state)
 
