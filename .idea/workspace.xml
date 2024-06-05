@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment="new_way create">
-      <change afterPath="$PROJECT_DIR$/new_way/result_pic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new_way/Samplings_Collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/new_way/Samplings_Collection.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
       <workItem from="1717263067035" duration="3778000" />
       <workItem from="1717314257937" duration="24856000" />
       <workItem from="1717439042564" duration="218000" />
-      <workItem from="1717439267798" duration="18590000" />
+      <workItem from="1717439267798" duration="19781000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -169,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717449849888</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new_way create">
+      <option name="closed" value="true" />
+      <created>1717489727572</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717489727572</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
