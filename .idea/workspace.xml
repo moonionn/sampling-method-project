@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment="整理 程式碼">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9e713a65-e73a-49e7-a3e4-3f3087a49751" name="Changes" comment=" create a new way for teacher's suggestion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +100,7 @@
       <workItem from="1717314257937" duration="24856000" />
       <workItem from="1717439042564" duration="218000" />
       <workItem from="1717439267798" duration="19781000" />
-      <workItem from="1717607903691" duration="1565000" />
+      <workItem from="1717607903691" duration="3099000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <option name="closed" value="true" />
@@ -192,7 +190,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717608468359</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="整理 程式碼">
+      <option name="closed" value="true" />
+      <created>1717610607997</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1717610607997</updated>
+    </task>
+    <task id="LOCAL-00013" summary=" create a new way for teacher's suggestion">
+      <option name="closed" value="true" />
+      <created>1717612178717</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717612178717</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +220,8 @@
     <MESSAGE value="output_pic of Firstpart of Diabetes" />
     <MESSAGE value="new_way create" />
     <MESSAGE value="整理 程式碼" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理 程式碼" />
+    <MESSAGE value=" create a new way for teacher's suggestion" />
+    <option name="LAST_COMMIT_MESSAGE" value=" create a new way for teacher's suggestion" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/sampling_method_project$prepreprocessing.coverage" NAME="prepreprocessing Coverage Results" MODIFIED="1717349798233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/new_way" />
