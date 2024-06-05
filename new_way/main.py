@@ -51,7 +51,7 @@ for dataset_name, (file_path, target_column) in datasets.items():
         for model_name, model_func in models.items():
             print(f"    * Model: {model_name} ") # 添加打印语句，表示模型训练开始
             f1, auc, mean_minority_recall = kfold_crossValidation(X_resampled, y_resampled, model_func, k=K_FOLD)
-            results[(dataset_name, model_name, sampling_name)] = (f1, auc, mean_minority_recall) # 将 mean_accuracy 也存储到 results 中
+            results[(dataset_name, model_name, sampling_name)] = (f1, auc, mean_minority_recall)
 
 # --- 結果 ---
 print("\n--- Results ---")
