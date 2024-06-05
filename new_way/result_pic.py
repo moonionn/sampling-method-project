@@ -1,6 +1,5 @@
 import altair as alt
 import pandas as pd
-import numpy as np
 import altair_saver
 
 # 数据准备

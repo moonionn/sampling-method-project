@@ -1,8 +1,6 @@
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, f1_score, roc_curve, auc
-from sklearn.metrics import precision_score, recall_score, confusion_matrix, matthews_corrcoef
-import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
 import numpy as np
 import pandas as pd
 from sklearn.svm import SVC
@@ -17,13 +15,6 @@ def display_confusion_matrix(y_true, y_pred):
     cm_df = pd.DataFrame(cm,
                          index=['Actual Negative:0', 'Actual Positive:1'],
                          columns=['Predicted Negative:0', 'Predicted Positive:1'])
-
-    # Extracting TN, FP, FN, TP
-    # TN, FP, FN, TP = cm.ravel()
-    # print(f"True Negatives (TN): {TN}")
-    # print(f"False Positives (FP): {FP}")
-    # print(f"False Negatives (FN): {FN}")
-    # print(f"True Positives (TP): {TP}")
 
     return cm_df
 
