@@ -1,3 +1,4 @@
+# Kfold_CrossValidation.py
 from sklearn.model_selection import KFold
 from sklearn.metrics import f1_score, roc_auc_score, accuracy_score
 from Models_training import minority_class_accuracy
@@ -28,7 +29,7 @@ def kfold_crossValidation(data, labels, model_func, k=5, balance_function=None, 
     accuracies = []
 
     for train_index, test_index in kf.split(data):
-        # 将 X_train 和 X_test 转换回 DataFrame，使用 data 的列名
+        # 将 X_train 和 X_test 轉換回 DataFrame，使用 data 的列名
         X_train = pd.DataFrame(data.iloc[train_index], columns=data.columns)
         X_test = pd.DataFrame(data.iloc[test_index], columns=data.columns)
 
